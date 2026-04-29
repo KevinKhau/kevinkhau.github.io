@@ -12,137 +12,137 @@
 
     <title>Kévin Khau — Fullstack Developer</title>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 0 20px;
-            line-height: 1.6;
-            color: #333;
-        }
-        h1 {
-            font-size: 2em;
-            margin-bottom: 0;
-        }
-        h2 {
-            margin-top: 40px;
-        }
-        .subtitle {
-            color: #666;
-            margin-bottom: 20px;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        li {
-            margin-bottom: 20px;
-        }
-        a {
-            text-decoration: none;
-            color: #0066cc;
-            font-weight: bold;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .project-desc {
-            font-size: 0.95em;
-            color: #555;
-        }
-        .footer {
-            margin-top: 50px;
-            font-size: 0.9em;
-            color: #777;
+        .card:hover {
+            transform: translateY(-4px);
+            transition: 0.2s;
         }
     </style>
 </head>
 
 <body>
 
-<h1>Kévin Khau</h1>
-<p class="subtitle">Fullstack Developer — Angular Specialist | Java</p>
+<div class="container py-5">
 
-<p>
-    I design and build reliable, maintainable web applications with a strong focus on
-    clean architecture, performance, and user experience.
-</p>
+    <!-- HERO -->
+    <div class="mb-5">
+        <h1 class="fw-bold">Kévin Khau</h1>
+        <p class="text-muted">
+            Fullstack Developer — Angular & Java.
+            I build reliable, scalable web applications with clean architecture and strong UX.
+        </p>
+    </div>
 
-<h2>Projects</h2>
+    <!-- PROJECTS -->
+    <div class="row g-4">
 
-<ul>
-    <li>
-        <a href="https://kevinkhau.github.io/coloured_squares/" target="_blank">
-            Stacking Colors from Corners to Center
-        </a>
-        <div class="project-desc">
-            Visual experiment exploring color propagation and symmetry.
-            <br/>
-            <a href="https://github.com/KevinKhau/coloured_squares" target="_blank">Source code</a>
+        <!-- Color Propagation -->
+        <div class="col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm border-0">
+                <div class="card-body">
+                    <h5 class="card-title">🎨 Color Propagation</h5>
+                    <p class="card-text text-muted">
+                        Visual experiment exploring symmetry and color diffusion algorithms.
+                    </p>
+                </div>
+                <div class="card-footer bg-white border-0">
+                    <a href="https://kevinkhau.github.io/coloured_squares/" target="_blank" class="btn btn-sm btn-primary">Live</a>
+                    <a href="https://github.com/KevinKhau/coloured_squares" target="_blank" class="btn btn-sm btn-outline-secondary">Code</a>
+                </div>
+            </div>
         </div>
-    </li>
 
-    <li>
-        <a href="https://kevinkhau.github.io/merkle_tree/" target="_blank">
-            Merkle Tree Interactive Demo (React / TypeScript)
-        </a>
-        <div class="project-desc">
-            Educational interface to understand how Merkle Trees work in practice.
-            <br/>
-            <a href="https://github.com/KevinKhau/merkle_tree" target="_blank">Source code</a>
+        <!-- Merkle Tree -->
+        <div class="col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm border-0">
+                <div class="card-body">
+                    <h5 class="card-title">🌳 Merkle Tree Demo</h5>
+                    <p class="card-text text-muted">
+                        Interactive visualization of Merkle Trees with React and TypeScript.
+                    </p>
+                </div>
+                <div class="card-footer bg-white border-0">
+                    <a href="https://kevinkhau.github.io/merkle_tree/" target="_blank" class="btn btn-sm btn-primary">Live</a>
+                    <a href="https://github.com/KevinKhau/merkle_tree" target="_blank" class="btn btn-sm btn-outline-secondary">Code</a>
+                </div>
+            </div>
         </div>
-    </li>
 
-    <li>
-        <a href="https://kevinkhau.github.io/polygons/index.html" target="_blank">
-            Polygon Clipping Puzzle
-        </a>
-        <div class="project-desc">
-            Step-by-step explanation of a geometric clipping algorithm.
-            <br/>
-            <a href="https://github.com/KevinKhau/polygons" target="_blank">Source code</a>
+        <!-- Polygon Clipping -->
+        <div class="col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm border-0">
+                <div class="card-body">
+                    <h5 class="card-title">🔺 Polygon Clipping</h5>
+                    <p class="card-text text-muted">
+                        Step-by-step explanation of a geometric clipping algorithm.
+                    </p>
+                </div>
+                <div class="card-footer bg-white border-0">
+                    <a href="https://kevinkhau.github.io/polygons/index.html" target="_blank" class="btn btn-sm btn-primary">Live</a>
+                    <a href="https://github.com/KevinKhau/polygons" target="_blank" class="btn btn-sm btn-outline-secondary">Code</a>
+                </div>
+            </div>
         </div>
-    </li>
 
-    <li>
-        <a href="https://kevinkhau.github.io/five-card_draw_poker/" target="_blank">
-            Five-Card Draw Poker
-        </a>
-        <div class="project-desc">
-            Implementation of classic poker rules and game logic.
-            <br/>
-            <a href="https://github.com/KevinKhau/five-card_draw_poker" target="_blank">Source code</a>
+        <!-- Poker -->
+        <div class="col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm border-0">
+                <div class="card-body">
+                    <h5 class="card-title">🃏 Poker Engine</h5>
+                    <p class="card-text text-muted">
+                        Implementation of Five-Card Draw rules and game logic.
+                    </p>
+                </div>
+                <div class="card-footer bg-white border-0">
+                    <a href="https://kevinkhau.github.io/five-card_draw_poker/" target="_blank" class="btn btn-sm btn-primary">Live</a>
+                    <a href="https://github.com/KevinKhau/five-card_draw_poker" target="_blank" class="btn btn-sm btn-outline-secondary">Code</a>
+                </div>
+            </div>
         </div>
-    </li>
 
-    <li>
-        <a href="https://kevinkhau.github.io/chess-champions/" target="_blank">
-            Chess Champions Explorer
-        </a>
-        <div class="project-desc">
-            Smart filtering and exploration of chess players dataset.
-            <br/>
-            <a href="https://github.com/KevinKhau/chess-champions" target="_blank">Source code</a>
+        <!-- Chess -->
+        <div class="col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm border-0">
+                <div class="card-body">
+                    <h5 class="card-title">♟️ Chess Explorer</h5>
+                    <p class="card-text text-muted">
+                        Smart filtering and exploration of chess champions dataset.
+                    </p>
+                </div>
+                <div class="card-footer bg-white border-0">
+                    <a href="https://kevinkhau.github.io/chess-champions/" target="_blank" class="btn btn-sm btn-primary">Live</a>
+                    <a href="https://github.com/KevinKhau/chess-champions" target="_blank" class="btn btn-sm btn-outline-secondary">Code</a>
+                </div>
+            </div>
         </div>
-    </li>
 
-    <li>
-        <a href="https://kevinkhau.github.io/minehive/" target="_blank">
-            Minehive — Non-Fatal Minesweeper
-        </a>
-        <div class="project-desc">
-            Alternative take on Minesweeper with forgiving mechanics.
-            <br/>
-            <a href="https://github.com/KevinKhau/minehive" target="_blank">Source code</a>
+        <!-- Minehive -->
+        <div class="col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm border-0">
+                <div class="card-body">
+                    <h5 class="card-title">💣 Minehive</h5>
+                    <p class="card-text text-muted">
+                        A non-fatal variation of Minesweeper with more forgiving mechanics.
+                    </p>
+                </div>
+                <div class="card-footer bg-white border-0">
+                    <a href="https://kevinkhau.github.io/minehive/" target="_blank" class="btn btn-sm btn-primary">Live</a>
+                    <a href="https://github.com/KevinKhau/minehive" target="_blank" class="btn btn-sm btn-outline-secondary">Code</a>
+                </div>
+            </div>
         </div>
-    </li>
-</ul>
 
-<div class="footer">
-    <p>
-        Find more on <a href="https://github.com/KevinKhau" target="_blank">GitHub</a> or
-        connect on <a href="https://www.linkedin.com/in/k%C3%A9vinkhau/" target="_blank">LinkedIn</a>.
-    </p>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="mt-5 text-muted">
+        More on
+        <a href="https://github.com/KevinKhau" target="_blank">GitHub</a> —
+        <a href="https://www.linkedin.com/in/k%C3%A9vinkhau/" target="_blank">LinkedIn</a>
+    </div>
+
 </div>
 
 </body>
